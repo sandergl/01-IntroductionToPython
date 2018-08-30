@@ -41,7 +41,6 @@ red_turtle.pen = rg.Pen('red', 2)
 red_turtle.speed = 2000
 
 size = 300
-other_size = 150
 
 for k in range(75):
     red_turtle.draw_square(size)
@@ -59,6 +58,5 @@ for k in range(75):
     red_turtle.pen_down()
     blue_turtle.pen_down()
     size = size - 12
-    other_size = other_size - 12
 
 window.close_on_mouse_click()
