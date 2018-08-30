@@ -3,7 +3,7 @@ answer = 2 ** 5
 print(answer * 100)
 
 ###############################################################################
-# TODO: 1.
+# DONE: 1.
 #   Read the 2 lines of code ABOVE this _TODO_.  That code:
 #     1. Computes 2 raised to the 5th power, yielding the object that is
 #          the integer 32.
@@ -20,7 +20,7 @@ print(answer * 100)
 ###############################################################################
 
 ###############################################################################
-# TODO: 2.
+# DONE: 2.
 #   Immediately below this _TODO_, write code that:
 #     - Computes 77 plus the cosine of 2.75.
 #         HINT: You will need to import the   math  module (library).
@@ -29,17 +29,23 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+import math
+
+value_1 = 77 + math.cos(2.75)
+print(math.sqrt(value_1))
+
 ###############################################################################
-# TODO: 3.
+# DONE: 3.
 #   Immediately below this _TODO_, write code that computes and prints:
 #      the square root of ((41 * 88) + (4 * the cosine of 2))
 #   Use as few or as many intermediate names as you feel appropriate.
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+print(math.sqrt((41*88)+(4*math.cos(2))))
 
 ###############################################################################
-# TODO: 4.
+# DONE: 4.
 #   Immediately below this _TODO_,
 #   write code that computes the square root of 2 in two ways:
 #     - By using the   math.sqrt   function.
@@ -48,6 +54,8 @@ print(answer * 100)
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
+print(math.sqrt(2))
+print(2**.5)
 
 ###############################################################################
 # TODO: 5.
@@ -89,3 +97,16 @@ print(answer * 100)
 # After you have written and run the code to learn the TYPE
 # of each of the above, change the above _TODO_ to DONE.
 ###############################################################################
+
+print(type("hello"))        #str
+print(type('hello'))        #str
+print(type("a b c"))        #str
+print(type(3+3))            #int
+print(type("3"+"3"))        #str
+print(type(2**100))         #int
+print(type(2.0**100))       #float
+print(type(math.sin(8)))    #float
+#print(type(math.sin)       error
+print(type(print))          #builtin_function_or_method
+print(type(math))           #module
+print(type('math'))         #str
