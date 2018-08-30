@@ -1,4 +1,7 @@
 print('Hello, World')
+print('Hello People!')
+print(3607*34227)
+
 
 ###############################################################################
 #
@@ -17,7 +20,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #   (Yes, that means for YOU to DO things per these instructions:)
 #
 #   Run this module by right clicking anywhere in this window and selecting
@@ -32,7 +35,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Notice the small horizontal BLUE bars on the scrollbar-like thing
 #   on the right.  Each blue bar indicates a thing TO-DO in this module.
 #
@@ -57,7 +60,7 @@ print('Hello, World')
 
 ###############################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add another   print   statement below the current Line 1 above.
 #   It should print any string that you want (but keep it G-rated!)
 #
